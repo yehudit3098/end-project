@@ -1,0 +1,23 @@
+body,h1,h2,input,button,p,div,span{
+    text-align: right;
+    direction: rtl;
+}
+div{   
+    box-shadow: 20px black;
+    width: 500px;
+    height: 600px;
+}
+.register,.entry{
+    float: right;
+    margin-right: 200px;
+    border: 3px solid yellow;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px grey;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: grey;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\School\Dal.dll.config
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\School\Dal.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\School\DTO.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\School\EntityFramework.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\School\EntityFramework.SqlServer.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\School\EntityFramework.xml
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\School\EntityFramework.SqlServer.xml
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\obj\School\Dal.csprojAssemblyReference.cache
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\obj\School\Dal.csproj.CoreCompileInputs.cache
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\obj\School\Dal.csproj.CopyComplete
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\obj\School\Dal.dll

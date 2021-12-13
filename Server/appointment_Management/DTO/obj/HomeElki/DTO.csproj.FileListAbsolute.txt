@@ -1,0 +1,16 @@
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\DTO.dll.config
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\DTO.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\HebrewNLP.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\System.Net.Http.Formatting.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\System.Web.Cors.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\System.Web.Http.Cors.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\System.Web.Http.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\System.Net.Http.Formatting.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\System.Web.Http.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\bin\HomeElki\System.Web.Http.Cors.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\obj\HomeElki\DTO.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\obj\HomeElki\DTO.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\obj\HomeElki\DTO.csproj.CopyComplete
+C:\Users\USER\Desktop\endProject\appointment_Management\DTO\obj\HomeElki\DTO.dll

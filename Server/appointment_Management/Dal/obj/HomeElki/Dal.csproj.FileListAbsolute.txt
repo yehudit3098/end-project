@@ -1,0 +1,66 @@
+D:\users\user1\Desktop\appointment_Management\Dal\obj\HomeElki\Dal.csprojAssemblyReference.cache
+D:\users\user1\Desktop\appointment_Management\Dal\obj\HomeElki\Dal.csproj.CoreCompileInputs.cache
+D:\users\user1\Desktop\appointment_Management\Dal\bin\HomeElki\Dal.dll.config
+D:\users\user1\Desktop\appointment_Management\Dal\bin\HomeElki\Dal.dll
+D:\users\user1\Desktop\appointment_Management\Dal\bin\HomeElki\DTO.dll
+D:\users\user1\Desktop\appointment_Management\Dal\bin\HomeElki\EntityFramework.dll
+D:\users\user1\Desktop\appointment_Management\Dal\bin\HomeElki\EntityFramework.SqlServer.dll
+D:\users\user1\Desktop\appointment_Management\Dal\bin\HomeElki\EntityFramework.xml
+D:\users\user1\Desktop\appointment_Management\Dal\bin\HomeElki\EntityFramework.SqlServer.xml
+D:\users\user1\Desktop\appointment_Management\Dal\obj\HomeElki\Dal.csproj.CopyComplete
+D:\users\user1\Desktop\appointment_Management\Dal\obj\HomeElki\Dal.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\HomeElki\Dal.dll.config
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\HomeElki\Dal.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\HomeElki\DTO.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\HomeElki\EntityFramework.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\HomeElki\EntityFramework.SqlServer.dll
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\HomeElki\EntityFramework.xml
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\bin\HomeElki\EntityFramework.SqlServer.xml
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\obj\HomeElki\Dal.csprojAssemblyReference.cache
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\obj\HomeElki\Dal.csproj.CoreCompileInputs.cache
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\obj\HomeElki\Dal.csproj.CopyComplete
+Y:\תשפא\2\וסרמן אלקה\appointment_Management\Dal\obj\HomeElki\Dal.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\Dal.dll.config
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\Dal.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\DTO.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\EntityFramework.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\EntityFramework.SqlServer.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\HebrewNLP.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\Newtonsoft.Json.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\System.Net.Http.Formatting.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\System.Web.Cors.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\System.Web.Http.Cors.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\System.Web.Http.dll
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\DTO.dll.config
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\EntityFramework.xml
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\EntityFramework.SqlServer.xml
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\Newtonsoft.Json.xml
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\System.Net.Http.Formatting.xml
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\System.Web.Http.xml
+H:\פרויקט מיהודית\appointment_Management\Dal\bin\HomeElki\System.Web.Http.Cors.xml
+H:\פרויקט מיהודית\appointment_Management\Dal\obj\HomeElki\Dal.csprojAssemblyReference.cache
+H:\פרויקט מיהודית\appointment_Management\Dal\obj\HomeElki\Dal.csproj.CoreCompileInputs.cache
+H:\פרויקט מיהודית\appointment_Management\Dal\obj\HomeElki\Dal.csproj.CopyComplete
+H:\פרויקט מיהודית\appointment_Management\Dal\obj\HomeElki\Dal.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\Dal.dll.config
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\Dal.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\DTO.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\EntityFramework.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\EntityFramework.SqlServer.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\HebrewNLP.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\Newtonsoft.Json.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\System.Net.Http.Formatting.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\System.Web.Cors.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\System.Web.Http.Cors.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\System.Web.Http.dll
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\DTO.dll.config
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\EntityFramework.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\EntityFramework.SqlServer.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\Newtonsoft.Json.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\System.Net.Http.Formatting.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\System.Web.Http.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\bin\HomeElki\System.Web.Http.Cors.xml
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\obj\HomeElki\Dal.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\obj\HomeElki\Dal.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\obj\HomeElki\Dal.csproj.CopyComplete
+C:\Users\USER\Desktop\endProject\appointment_Management\Dal\obj\HomeElki\Dal.dll

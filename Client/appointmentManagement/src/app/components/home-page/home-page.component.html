@@ -1,0 +1,19 @@
+<h2>שלום לך מומחה יקר!</h2>
+<p>אנו שמחים לשרת אותך במומחיות וביעילות!</p>
+<div class="entry">
+    <p>אם הנך רשום במערכת כל שעליך לעשות הוא להכניס את שם המשתמש והסיסמה שלך ואתה בפנים!</p>
+    <span>שם משתמש:</span><input type="text" #userName placeholder="הכנס שם משתמש" /><br />
+    <span>סיסמה:</span><input type="password" #userPassword placeholder="הכנס סיסמה" /><br />
+    <button (click)="entryExpert(userName.value,userPassword.value)">לכניסה...</button><br />
+</div>
+<div class="register">
+    <p>:אם אינך רשום במערכת נא הכנס את הפרטים הבאים</p>
+    <span>שם משתמש:</span><input type="text" #userName placeholder="הכנס שם משתמש" /><br />
+    <span>תעודת זהות:</span><input type="text" #userTz placeholder="הכנס תעודת זהות" /><br />
+    <span>סיסמה:</span><input type="password" #userPassword placeholder="הכנס סיסמה" /><br />
+    <span>כתובת:</span><input type="text" #userAdress placeholder="הכנס כתובת " /><br />
+    <span>טלפון:</span><input type="text" #userPhone placeholder="הכנס טלפון" /><br />
+    <span>מייל:</span><input type="email" #userMail placeholder="הכנס מייל" /><br />
+    <button
+        (click)="registerationExpert(userName.value,userTz.value,userPassword.value,userAdress.value,userPhone.value,userMail.value)">להרשמה...</button><br />
+</div>

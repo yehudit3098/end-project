@@ -1,0 +1,14 @@
+.fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.submitBtn {
+  width: 100%;
+}
+.headerTxt {
+  text-align: center;
+  display: contents;
+}
+
+
