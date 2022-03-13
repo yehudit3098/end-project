@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { AppointmentsService } from '../../services/appointments.service';
 import { Appointment } from '../../interfaces/Appointment';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
+import { AppointmentToDisain } from 'src/app/interfaces/AppointmentToDisain';
+import { Customer } from 'src/app/interfaces/Customer';
 
 @UntilDestroy()
 @Component({
@@ -12,35 +14,46 @@ import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
 export class ExpertComponent implements OnInit {
   t: Date = new Date();
   public expertId: number;
-  public appointments: Appointment[] = [
+  public appointments: AppointmentToDisain[] = [
     {
       idaAppointment: 1,
       dateAppointment: this.t,
-      expertInDayId: 1,
-      timeAppointment: null,
-      customerId: 1,
+      customeName:"hc",
+      customerPhone:"3241234"
     },
   ];
-  dataSource = this.appointments;
+  apoi:Appointment[]=[]
+  dataSource: AppointmentToDisain[] = [];
+  cus: Customer
   displayedColumns: string[] = [
     'demo-idaAppointment',
     'demo-dateAppointment',
-    'demo-expertInDayId',
-    'demo-customerId',
+    'demo-customeName',
+    'demo-customerPhone',
   ];
 
-  constructor(private appointmentsService: AppointmentsService) {}
+  constructor(private appointmentsService: AppointmentsService) { }
 
   ngOnInit(): void {
     this.getAppointmentsByExpert();
+   
+  ///  this.dataSource = this.sortDate;
+ //  this.dataSource=this.appointments
+
+
   }
   getAppointmentsByExpert() {
-    this.appointmentsService
-      .getAppointmentsByExpert(sessionStorage.getItem('userId'))
-      .pipe(untilDestroyed(this))
-      .subscribe((appointments) => {
-        this.dataSource = appointments;
-        console.log(this.dataSource);
-      });
+    this.appointmentsService.getAppointmentsByExpert(sessionStorage.getItem('userId')).pipe(untilDestroyed(this)).subscribe((appointments) => {
+    this.dataSource=appointments
+    });
+   
+
+  }
+
+
+  public get sortDate() {
+    return this.dataSource.sort((a, b) => {
+      return (<any>new Date(a.dateAppointment) - <any>new Date(b.dateAppointment))
+    });
   }
 }

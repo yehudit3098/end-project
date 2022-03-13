@@ -1,0 +1,65 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" *ngIf="form">
+  <div class="fields">
+    <mat-form-field>
+      <mat-label> שם משתמש </mat-label>
+      <input matInput type="text" formControlName="email" />
+      <button *ngIf="email?.value" value="email" matPrefix mat-icon-button aria-label="Clear"
+        (click)="email?.setValue(email.value)">
+        <mat-icon>מחק</mat-icon>
+      </button>
+      <mat-error *ngIf="email?.hasError('email')">
+        הכנס בבקשה כתובת מייל תקינה
+      </mat-error>
+
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label> סיסמא </mat-label>
+      <input matInput type="text" formControlName="password" />
+      <button *ngIf="password?.value" matPrefix mat-icon-button aria-label="Clear"
+        (click)="password.setValue(password.value)">
+        <mat-icon>מחק</mat-icon>
+      </button>
+      <mat-error *ngIf="password?.hasError('minlength')&&password?.hasError('maxlength')">
+        ססמא בת 8 תוים
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label> שם פרטי </mat-label>
+      <input matInput type="text" formControlName="firstName"/>
+      <button *ngIf="firstName?.value" matPrefix mat-icon-button aria-label="Clear"
+        (click)="firstName?.setValue(firstName.value)">
+        <mat-icon>מחק</mat-icon>
+      </button>
+
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label> שם משפחה </mat-label>
+      <input matInput type="text" formControlName="lastName" />
+      <button *ngIf="lastName?.value" matPrefix mat-icon-button aria-label="Clear"
+        (click)="lastName?.setValue(lastName.value)">
+        <mat-icon>מחק</mat-icon>
+      </button>
+
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label> כתובת </mat-label>
+      <input matInput type="text" formControlName="adress" />
+      <button *ngIf="adress?.value" matPrefix mat-icon-button aria-label="Clear"
+        (click)="adress?.setValue(adress.value)">
+        <mat-icon>מחק</mat-icon>
+      </button>
+
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label> טלפון </mat-label>
+      <input matInput type="text" formControlName="phone" />
+      <button *ngIf="phone?.value" matPrefix mat-icon-button aria-label="Clear" (click)="phone?.setValue(phone.value)">
+        <mat-icon>מחק</mat-icon>
+      </button>
+
+    </mat-form-field>
+  </div>
+  <button class="submitBtn" mat-raised-button color="primary" type="submit" [disabled]="!form?.valid">
+    עדכון נתונים
+  </button>
+</form>

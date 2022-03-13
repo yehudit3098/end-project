@@ -10,5 +10,12 @@
   text-align: center;
   display: contents;
 }
+input{
+  text-align: right;
+}
+mat-form-field{
+  display: block;
+  text-align: right;
+}
 
 

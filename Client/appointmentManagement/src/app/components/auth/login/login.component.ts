@@ -3,7 +3,8 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { UntilDestroy, untilDestroyed } from '@ngneat/until-destroy';
-import { User } from 'src/app/interfaces/User';
+import { Experts_In_Categories } from 'src/app/interfaces/Experts_In_Categories';
+import { ExpertDTO } from 'src/app/interfaces/User';
 import { UserService } from 'src/app/services/user.service';
 
 @UntilDestroy()
@@ -14,13 +15,14 @@ import { UserService } from 'src/app/services/user.service';
 })
 export class LoginComponent implements OnInit {
   profileForm: FormGroup;
-  user: User;
+  user: ExpertDTO;
 
   constructor(
     private fb: FormBuilder,
     private userService: UserService,
     private router: Router
-  ) {}
+  ) {
+  }
 
   ngOnInit(): void {
     this.initForm();
@@ -43,7 +45,7 @@ export class LoginComponent implements OnInit {
           sessionStorage.setItem('userId', user.idExpert);
           this.router
             // .navigate(['expert' , user.idExpert]);
-            .navigateByUrl('expert');
+            .navigateByUrl('enter');
           console.log('OK!');
         } else {
           //TODO

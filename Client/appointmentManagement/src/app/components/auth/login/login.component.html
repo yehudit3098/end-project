@@ -10,18 +10,10 @@
     <mat-form-field>
       <mat-label> שם משתמש </mat-label>
       <input matInput type="text" formControlName="userName" />
-      <button
-        *ngIf="userName.value"
-        matPrefix
-        mat-icon-button
-        aria-label="Clear"
-        (click)="userName.setValue('')"
-      >
+      <button *ngIf="userName.value" matSuffix mat-icon-button aria-label="Clear" (click)="userName.setValue('')">
         <mat-icon>close</mat-icon>
       </button>
-      <mat-error
-        *ngIf="userName.hasError('email') && !userName.hasError('required')"
-      >
+      <mat-error *ngIf="userName.hasError('email') && !userName.hasError('required')">
         הכנס בבקשה כתובת מייל תקינה
       </mat-error>
       <mat-error *ngIf="userName.hasError('required')">
@@ -31,13 +23,7 @@
     <mat-form-field>
       <mat-label> סיסמא </mat-label>
       <input matInput type="password" formControlName="password" />
-      <button
-        *ngIf="password.value"
-        matPrefix
-        mat-icon-button
-        aria-label="Clear"
-        (click)="password.setValue('')"
-      >
+      <button *ngIf="password.value" matSuffix mat-icon-button aria-label="Clear" (click)="password.setValue('')">
         <mat-icon>close</mat-icon>
       </button>
       <mat-error *ngIf="password.hasError('minLength')">
@@ -45,13 +31,7 @@
       </mat-error>
     </mat-form-field>
   </div>
-  <button
-    class="submitBtn"
-    mat-raised-button
-    color="primary"
-    type="submit"
-    [disabled]="!profileForm.valid"
-  >
+  <button class="submitBtn" mat-raised-button color="primary" type="submit" [disabled]="!profileForm.valid">
     כניסה
   </button>
 </form>

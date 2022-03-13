@@ -2,7 +2,8 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
-import { Appointment } from '../interfaces/Appointment';
+import { AppointmentToDisain } from '../interfaces/AppointmentToDisain';
+import { Customer } from '../interfaces/Customer';
 
 @Injectable({
   providedIn: 'root'
@@ -17,9 +18,13 @@ export class AppointmentsService {
 
   constructor(private http: HttpClient) { }
 
-  getAppointmentsByExpert(id: string): Observable<Appointment[]> {
-    return this.http.get<Appointment[]>(this.appointmentsUrl + id);
+  getAppointmentsByExpert(id: string): Observable<AppointmentToDisain[]> {
+    return this.http.get<AppointmentToDisain[]>(this.appointmentsUrl + id);
   }
+  // getCustemerById(id:number):Observable<Customer>
+  // {
+  //   return this.http.get<Customer>(`${environment.apiUrl}/Values/getCustemerById/`+id);
+  // }
 
   // getCar(id: number): Observable<Car> {
   //   const url = `${this.carsUrl}/${id}`;

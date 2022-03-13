@@ -1,10 +1,12 @@
-export interface User{
-    idExpert:string,
-    firstNameExpert:string,
-    lastNameExpert:string,
-    tzExpert:string,
-    passwordExpert:string,
-    adressExpert:string,
-    phoneExpert:string,
-    mailExpert:string
+export class ExpertDTO{
+    constructor(
+    public idExpert:string='',
+    public firstNameExpert:string='',
+    public tzExpert:string='',
+   public lastNameExpert:string='',
+   public passwordExpert:string='',
+   public adressExpert:string='',
+   public phoneExpert:string='',
+   public mailExpert:string=''
+    ){}
 }

@@ -1,38 +1,36 @@
 <p>התורים שלך</p>
-
-<!-- הכנס מזהה מומחה<input type="number" [(ngModel)]="expertId" /> -->
-<!-- <button (click)="getAppointmentsByExpert()">ok</button> -->
-
+<br>
+<button mat-icon-button matSuffix (click)="getAppointmentsByExpert()">
+  <mat-icon>refresh</mat-icon>
+</button>
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8 demo-table">
   <ng-container matColumnDef="demo-idaAppointment">
-    <th mat-header-cell *matHeaderCellDef>IdaAppointment</th>
-    <td mat-cell *matCellDef="let element">{{ element.idaAppointment }}</td>
+    <th mat-header-cell *matHeaderCellDef style="padding: 10px; text-align: center; color: black;">תור מספר</th>
+    <td mat-cell *matCellDef="let element">
+      <div>{{ element.idaAppointment }}</div>
+    </td>
   </ng-container>
-
   <ng-container matColumnDef="demo-dateAppointment">
-    <th mat-header-cell *matHeaderCellDef>DateAppointment</th>
-    <td mat-cell *matCellDef="let element">{{ element.dateAppointment | date:'dd/MM/yyy HH:mm:ss' }}</td>
+    <th mat-header-cell *matHeaderCellDef style="padding: 10px; text-align: center; color: black;">תאריך</th>
+    <td mat-cell *matCellDef="let element" style="padding: 10px; text-align: center;">
+      <div>{{ element.dateAppointment | date:'dd/MM/yyy HH:mm:ss' }}</div>
+    </td>
   </ng-container>
 
-  <ng-container matColumnDef="demo-expertInDayId">
-    <th mat-header-cell *matHeaderCellDef>ExpertInDayId</th>
-    <td mat-cell *matCellDef="let element">{{ element.expertInDayId }}</td>
+  <ng-container matColumnDef="demo-customeName">
+    <th mat-header-cell *matHeaderCellDef style="padding: 10px; text-align: center; color: black;">שם לקוח</th>
+    <td mat-cell *matCellDef="let element" style="padding: 10px; text-align: center;">
+      <div>{{ element.customeName }}</div>
+    </td>
   </ng-container>
 
-  <ng-container matColumnDef="demo-customerId">
-    <th mat-header-cell *matHeaderCellDef>CustomerId</th>
-    <td mat-cell *matCellDef="let element">{{ element.customerId }}</td>
+  <ng-container matColumnDef="demo-customerPhone">
+    <th mat-header-cell *matHeaderCellDef style="padding: 10px; text-align: center; color: black;">טלפון לקוח</th>
+    <td mat-cell *matCellDef="let element" style="padding: 10px; text-align: center;">
+      <div>{{ element.customerPhone }}</div>
+    </td>
   </ng-container>
 
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
 </table>
-
-<!--
-  TODO:
-  לעשות פרוצדורות שישלפו נתונים של תורים לפי תאריכים עתידיים ולא לפי תאריכים שהיו בעבר
-  לעשות קריאת אצתטיטיפי נורמלית ולא קבועה עם מזהה מומחה 1
-  לעשות פרוצדורות שליפה
-  (הסטוריה של תורים עם מטופל מסוים צירופי טבלאות וכו וכן מיון לפי התור הקרוב ביותר כדי לשלוף למומחה)
-  איך מביאים פרוצדורה לסי שארפ
--->
