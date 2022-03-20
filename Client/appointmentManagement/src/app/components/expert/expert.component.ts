@@ -14,22 +14,24 @@ import { Customer } from 'src/app/interfaces/Customer';
 export class ExpertComponent implements OnInit {
   t: Date = new Date();
   public expertId: number;
-  public appointments: AppointmentToDisain[] = [
-    {
-      idaAppointment: 1,
-      dateAppointment: this.t,
-      customeName:"hc",
-      customerPhone:"3241234"
-    },
-  ];
+  // public appointments: AppointmentToDisain[] = [
+  //   {
+  //     idaAppointment: 1,
+  //     dateAppointment: this.t,
+  //     customeName:"hc",
+  //     customerPhone:"3241234"
+  //   },
+  // ];
   apoi:Appointment[]=[]
   dataSource: AppointmentToDisain[] = [];
   cus: Customer
   displayedColumns: string[] = [
     'demo-idaAppointment',
     'demo-dateAppointment',
-    'demo-customeName',
-    'demo-customerPhone',
+    'demo-dataStart',
+     'demo-dataEnd',
+    'demo-customeName',   
+     'demo-customerPhone',
   ];
 
   constructor(private appointmentsService: AppointmentsService) { }
@@ -42,14 +44,22 @@ export class ExpertComponent implements OnInit {
 
 
   }
-  getAppointmentsByExpert() {
+  getAppointmentsByExpert() {    
     this.appointmentsService.getAppointmentsByExpert(sessionStorage.getItem('userId')).pipe(untilDestroyed(this)).subscribe((appointments) => {
     this.dataSource=appointments
+      console.log(this.dataSource)
+    
     });
    
 
   }
-
+  f()
+  {
+    this.dataSource.forEach(element => {
+        this.appointmentsService.update(element);
+  
+    });
+  }
 
   public get sortDate() {
     return this.dataSource.sort((a, b) => {

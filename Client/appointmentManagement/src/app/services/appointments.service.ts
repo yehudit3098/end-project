@@ -17,7 +17,10 @@ export class AppointmentsService {
   };
 
   constructor(private http: HttpClient) { }
-
+  update(appointments:AppointmentToDisain)
+  {
+    this.http.put(`${environment.apiUrl}/Values/update`,appointments).subscribe()
+  }
   getAppointmentsByExpert(id: string): Observable<AppointmentToDisain[]> {
     return this.http.get<AppointmentToDisain[]>(this.appointmentsUrl + id);
   }

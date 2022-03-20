@@ -2,13 +2,14 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
+import { Dictionary } from '../interfaces/Dictionary';
 
 
 @Injectable({
   providedIn: 'root',
 })
 export class statisticsService {
-
+  
   private userUrl = `${environment.apiUrl}/statistics/`;
 
   httpOptions = {
@@ -16,5 +17,9 @@ export class statisticsService {
   };
 
   constructor(private http: HttpClient) {}
-
+  getStaticPro():Observable<Dictionary[]>
+  {
+   return this.http.get<Dictionary[]>(this.userUrl+'/getStaticPro');
+  }
+  
 }
