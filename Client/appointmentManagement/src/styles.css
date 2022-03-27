@@ -8,8 +8,16 @@ body {
   height: 100%;
   margin: 0;
   direction: rtl;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 17px;
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif !important;
+  font-size: 20px !important;
+}
 mat-form-field,
 tr,
 h1,
@@ -23,10 +31,8 @@ body,
 span,
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif !important;
-  font-size:15px;
+  font-size: 15px;
 }
-.material-icons{
-  font-family: 'Material Icons' !important;
+.material-icons {
+  font-family: "Material Icons" !important;
 }
-
-

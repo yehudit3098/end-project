@@ -2,17 +2,28 @@
   <h1><b>תור - פון</b></h1>
   <h2>קל להתפרסם! קל לקבוע תור!</h2>
 </div> -->
-<div class="headerContainer" >
-  <img mat-card-image src="../../../assets/logo/logo.jpg" style="height: 150px; width: 250px;" >
-  <div class="card-body" style="text-align: center;">
-   <div class="otto">
-           <h1><b>תור - פון</b></h1>
-           <h2>קל להתפרסם! קל לקבוע תור!</h2>
-          </div>
-          <div class="example-button-container">
-            <button mat-mini-fab routerLink="/login" >
-              <mat-icon>logout</mat-icon>
-            </button>
-          </div>
+<div class="headerContainer">
+  <!-- <img mat-card-image src="../../../assets/logo/logo.jpg" style="height: 50px; width: 150px;"> -->
+  <div class="card-body">
+    <div style="margin-right: 50px;">
+      <!-- <h1><b>תור - פון</b></h1>
+      <h2>קל להתפרסם! קל לקבוע תור!</h2> -->
+    </div>
   </div>
+  <div mat-icon-button [matMenuTriggerFor]="menu" class="example-button-container"
+      style="margin-left:15px;">
+      <button mat-mini-fab>
+        <mat-icon>person</mat-icon>
+      </button>
+    </div>
 </div>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/login">
+    <mat-icon>logout</mat-icon>
+    <span>התנתקות</span>
+  </button>
+  <button mat-menu-item routerLink="/update">
+    <mat-icon>person</mat-icon>
+    <span>הפרופיל שלך</span>
+  </button>
+</mat-menu>

@@ -3,3 +3,19 @@
   flex-direction: column;
   justify-content: space-between;
 }
+mat-form-field, input{
+  text-align: right;
+  direction: rtl;
+}
+input{
+  width: 100px !important;
+}
+form{
+  width: 400px;
+  /* margin-top: 40px; */
+  margin-right: 35%;
+  text-align: center;
+}
+.submitBtn{
+  margin: 10px;
+}

@@ -1,5 +1,7 @@
+import { Route } from '@angular/compiler/src/core';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { untilDestroyed } from '@ngneat/until-destroy';
 import { ExpertDTO } from 'src/app/interfaces/User';
 import { UserService } from 'src/app/services/user.service';
@@ -17,7 +19,7 @@ export class UpdateComponent implements OnInit {
   user: ExpertDTO
   id: number
 
-  constructor(private fb: FormBuilder, private userService: UserService) {
+  constructor(private fb: FormBuilder, private userService: UserService, private router: Router) {
 
   }
 
@@ -35,6 +37,7 @@ export class UpdateComponent implements OnInit {
     this.user.passwordExpert = this.form.value.password
     debugger
     this.userService.Update(this.user);
+    this.router.navigateByUrl('enter');
   }
    private initForm() {
 

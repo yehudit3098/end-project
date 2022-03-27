@@ -1,11 +1,25 @@
-<mat-tab-group class="authContainer">
- <mat-tab label="רשימת תורים">
-<expert></expert>
-</mat-tab>   
-<mat-tab label="עדכון פרטים">
+<!-- <div
+  style="
+    background-image: url(../../../../assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 920px;
+  "
+> -->
+  <header></header>
+  <div style="background-color: white; width:70%; height:41rem; margin-right:15%;margin-top:40px;border-radius: 1%;">
+    <img src="../../../../assets/logo/logo.jpg" style="width: 26%;height: 8rem; padding-right: 38%;" >
+    <mat-tab-group mat-stretch-tabs class="authContainer" style="background-color: white">
+      <mat-tab label="רשימת תורים">
+        <expert></expert>
+      </mat-tab>
+      <!-- <mat-tab label="עדכון פרטים">
 <app-update></app-update>
-</mat-tab>
-<mat-tab label="סטטיסטקות">
-<app-statistics></app-statistics>
-</mat-tab>
-</mat-tab-group>
+</mat-tab> -->
+      <mat-tab label="סטטיסטקות">
+        <app-statistics></app-statistics>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+<!-- </div> -->

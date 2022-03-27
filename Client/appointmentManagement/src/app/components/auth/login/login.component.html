@@ -1,14 +1,16 @@
-<div class="headerTxt">
+<!-- <div class="headerTxt">
   <p>
     אם הנך רשום במערכת כל שעליך לעשות הוא להכניס את שם המשתמש והסיסמה שלך ואתה
     בפנים!
   </p>
-</div>
+</div> -->
 
-<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()" style="height: 80%;">
   <div class="fields">
+    
     <mat-form-field>
       <mat-label> שם משתמש </mat-label>
+      <mat-icon matPrefix style="margin-left: 5px; vertical-align: middle;">email</mat-icon>
       <input matInput type="text" formControlName="userName" />
       <button *ngIf="userName.value" matSuffix mat-icon-button aria-label="Clear" (click)="userName.setValue('')">
         <mat-icon>close</mat-icon>
@@ -20,8 +22,9 @@
         שדה <strong>חובה</strong>
       </mat-error>
     </mat-form-field>
-    <mat-form-field>
+    <mat-form-field>  
       <mat-label> סיסמא </mat-label>
+      <mat-icon matPrefix style="margin-left: 5px; vertical-align: middle;">lock</mat-icon>
       <input matInput type="password" formControlName="password" />
       <button *ngIf="password.value" matSuffix mat-icon-button aria-label="Clear" (click)="password.setValue('')">
         <mat-icon>close</mat-icon>

@@ -44,6 +44,8 @@ export class ExpertComponent implements OnInit {
 
 
   }
+
+
   getAppointmentsByExpert() {    
     this.appointmentsService.getAppointmentsByExpert(sessionStorage.getItem('userId')).pipe(untilDestroyed(this)).subscribe((appointments) => {
     this.dataSource=appointments
@@ -53,6 +55,7 @@ export class ExpertComponent implements OnInit {
    
 
   }
+
   f()
   {
     this.dataSource.forEach(element => {
@@ -67,3 +70,5 @@ export class ExpertComponent implements OnInit {
     });
   }
 }
+
+

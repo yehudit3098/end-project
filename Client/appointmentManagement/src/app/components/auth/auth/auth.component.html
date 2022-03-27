@@ -1,9 +1,16 @@
-<mat-tab-group class="authContainer">
-  <mat-tab label="התחברות">
-    <app-login></app-login>
-  </mat-tab>
-  <mat-tab label="הרשמה">
-    <app-register></app-register>
-  </mat-tab>
-</mat-tab-group>
-
+<div style="width:100%;vertical-align: middle;display: flex;justify-content: center;">
+  
+  <img mat-card-image src="../../../../assets/logo/login.png" style="width: 44.7%;height: 35rem;margin-top: 5rem;">
+  <div style="width: 38%; height: 35rem; background-color: white;float: left;margin-top: 5rem;">
+    <img src="../../../../assets/logo/logo.jpg" style="width: 58%;height: 10rem; padding-right: 20%;" >
+    <mat-tab-group mat-stretch-tabs style="padding-right: 12%; background-color: white; padding-left: 1.2%;">
+      <mat-tab label="התחברות">
+        <app-login></app-login>
+      </mat-tab>
+      <mat-tab label="הרשמה">
+        <app-register></app-register>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+  
+</div>
